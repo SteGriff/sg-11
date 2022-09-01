@@ -1,6 +1,50 @@
 {
   "name": "The Pigskin Chronicle",
-  "profiles" : [
-    
+  "profiles": [
+    {
+      "TeamName": "Ste Griffiths",
+      "RealName": "Southport Skylarks",
+      "Supports": "Cardinals",
+      "FanFor": "7 years",
+      "FanSeason": "3rd season",
+      "Fact": "Despite it's unlikely locale, the Skylarks attract the best of NFL talent thanks to the subtropical Florida-like climate and what some have called 'exploitative' visa arrangements",
+      "Other": ""
+    },
+    {
+      "TeamName": "Helen",
+      "RealName": "Esquel Collies ",
+      "Supports": "Arizona cardinals ",
+      "FanFor": "Like 7 years?",
+      "FanSeason": "3rd Season",
+      "Fact": "Rhumba and Mora are the real Esquel Collies. One year they killed 16 birds by grabbing them out of the sky. Now we're gonna crush it like they crush little birdie bones!",
+      "Other": ""
+    },
+    {
+      "TeamName": "Jonny Hubble",
+      "RealName": "Burrow row row your boat",
+      "Supports": "Packers",
+      "FanFor": "8 years ",
+      "FanSeason": "4th season",
+      "Fact": "Joe Burrow is the whole team it retires once he retires ",
+      "Other": ""
+    },
+    {
+      "TeamName": "Brandon Meadow",
+      "RealName": "Packers FC",
+      "Supports": "Green Bay Packers",
+      "FanFor": "Approx 8 Years",
+      "FanSeason": "1st Season for a while. Have done drafts before. ",
+      "Fact": "Sorry Steve can’t think of anything to put here ",
+      "Other": ""
+    },
+    {
+      "TeamName": "Bryn Joslin",
+      "RealName": "The Brady Bunch",
+      "Supports": "The Bucs (not because of Brady)",
+      "FanFor": "2",
+      "FanSeason": "1st season",
+      "Fact": "After doing abysmally for a couple of decades, Hugh Laurie and Tony Robinson bought out the team to see if they could finally take them to the playoffs and ultimately the Super Bowl.",
+      "Other": ""
+    }
   ]
 }
