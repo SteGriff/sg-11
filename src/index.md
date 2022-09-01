@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-pageTitle: 🏈🐖
+pageTitle: 🏈🐖 Home
 ---
 
 # Welcome to {{ siteData.name }}

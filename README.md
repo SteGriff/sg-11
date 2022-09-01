@@ -1,5 +1,9 @@
-# eleventy-on-glitch
+# Pigskin Chronicle
 
-`eleventy-on-glitch` is a starter template for the [11ty](https://11ty.io) static site generator on [glitch.com](https://glitch.com).
+This is a website powered by static site generator 11ty.
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/https://glitch.com/~eleventy-on-glitch)
+All pages use the layout `_includes/_layouts/default.njk`
+
+Base pages are written in markdown, see `index.md`, `profiles.md`, etc.
+
+Data for the Profiles is in `_data/siteData.json`. The profiles are populated from a Google Sheet that reads the Google Form results.
