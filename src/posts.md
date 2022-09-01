@@ -11,6 +11,7 @@ Here come the match reports
   <div class="neu ph3 pv2 mv3">
   <h2>{{post.data.title}} </h2>
   <p>
+    {{post.content}}
   </p>
   </div>
 {%- endfor -%}
