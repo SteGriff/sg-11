@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-pageTitle: Eleventy on Glitch
+pageTitle: 🏈🐖
 ---
 
 # Welcome to {{ siteData.name }}

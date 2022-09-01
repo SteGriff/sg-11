@@ -4,8 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ pageTitle or siteData.name }}</title>
+    <link rel="stylesheet" href="/public/style.css">
   </head>
   <body>
+    <header>
+    <nav class="measure-wide center pv4">
+  <a class="link dim black b f6 f5-ns dib mr3" href="/" title="Home">{{siteData.name}}</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="/posts/" title="Posts">Posts</a>
+  <a class="link dim gray    f6 f5-ns dib mr3" href="/profiles/" title="Profiles">Profiles</a>
+</nav>
+    </header>
+    <main class="measure-wide center b--black-10 bt">
     {{ content | safe }}
+      </main>
   </body>
 </html>

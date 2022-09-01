@@ -2,7 +2,7 @@
 
 module.exports = function(eleventyConfig) {
   
-    eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy("public");
 
   // eleventyConfig.addFilter( "myFilter", function() {});
   
