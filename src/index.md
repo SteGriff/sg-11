@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
 pageTitle: 🏈🐖 Home
+title: Welcome to The Pigskin Chronicle
 ---
-
-# Welcome to {{ siteData.name }}
 
 Football. Need I say more?

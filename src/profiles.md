@@ -1,9 +1,8 @@
 ---
 layout: layouts/default.njk
 pageTitle: 🏈🐖 Profiles
+title: Profiles
 ---
-
-# Profiles
 
 Here come the teams and managers
 
