@@ -11,10 +11,16 @@
   ],
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy",
+    "build": "NODE_ENV=production eleventy",
     "start": "eleventy --serve"
   },
-  "dependencies": {
+  "engines": {
+    "node": "12"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
   },
   "license": "MIT"

@@ -1,0 +1,26 @@
+@font-face {
+font-family: AllProSans;
+src: url("/assets/fonts/heavy.woff2") format("woff2");
+font-style: normal;
+font-weight: 900;
+}
+
+@font-face {
+font-family: AllProSans;
+src: url("/assets/fonts/bold.woff2") format("woff2");
+font-style: normal;
+font-weight: 600;
+}
+
+@font-face {
+font-family: AllProSans;
+src: url("/assets/fonts/regular.woff2") format("woff2");
+font-style: normal;
+font-weight: 400;
+}
+
+html { font-family: Helvetica, Arial, sans-serif; }
+
+h1,h2,h3, .all-pro {
+    font-family: AllProSans, sans-serif;
+}
