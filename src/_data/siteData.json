@@ -2,8 +2,8 @@
   "name": "The Pigskin Chronicle",
   "profiles": [
     {
-      "TeamName": "Ste Griffiths",
-      "RealName": "Southport Skylarks",
+      "TeamName": "Southport Skylarks",
+      "RealName": "Ste Griffiths",
       "Supports": "Cardinals",
       "FanFor": "7 years",
       "FanSeason": "3rd season",
@@ -11,17 +11,17 @@
       "Other": ""
     },
     {
-      "TeamName": "Helen",
-      "RealName": "Esquel Collies ",
-      "Supports": "Arizona cardinals ",
+      "TeamName": "Esquel Collies",
+      "RealName": "Helen Griffiths",
+      "Supports": "Cardinals",
       "FanFor": "Like 7 years?",
       "FanSeason": "3rd Season",
       "Fact": "Rhumba and Mora are the real Esquel Collies. One year they killed 16 birds by grabbing them out of the sky. Now we're gonna crush it like they crush little birdie bones!",
       "Other": ""
     },
     {
-      "TeamName": "Jonny Hubble",
-      "RealName": "Burrow row row your boat",
+      "TeamName": "Burrow row row your boat",
+      "RealName": "Jonny Hubble",
       "Supports": "Packers",
       "FanFor": "8 years ",
       "FanSeason": "4th season",
@@ -29,8 +29,8 @@
       "Other": ""
     },
     {
-      "TeamName": "Brandon Meadow",
-      "RealName": "Packers FC",
+      "TeamName": "Packers FC",
+      "RealName": "Brandon Meadow",
       "Supports": "Green Bay Packers",
       "FanFor": "Approx 8 Years",
       "FanSeason": "1st Season for a while. Have done drafts before. ",
@@ -38,8 +38,8 @@
       "Other": ""
     },
     {
-      "TeamName": "Bryn Joslin",
-      "RealName": "The Brady Bunch",
+      "TeamName": "The Brady Bunch",
+      "RealName": "Bryn Joslin",
       "Supports": "The Bucs (not because of Brady)",
       "FanFor": "2",
       "FanSeason": "1st season",
