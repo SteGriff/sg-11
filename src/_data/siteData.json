@@ -7,14 +7,14 @@
       "Supports": "Cardinals",
       "FanFor": "7 years",
       "FanSeason": "3rd season",
-      "Fact": "Despite it's unlikely locale, the Skylarks attract the best of NFL talent thanks to the subtropical Florida-like climate and what some have called 'exploitative' visa arrangements",
+      "Fact": "Despite it's unlikely locale, the Skylarks attract the best of NFL talent thanks to Southport's subtropical Florida-like climate and what some have called 'exploitative' visa arrangements",
       "Other": ""
     },
     {
-      "TeamName": "Esquel Collies",
+      "TeamName": "Esquel Collies ",
       "RealName": "Helen Griffiths",
-      "Supports": "Cardinals",
-      "FanFor": "Like 7 years?",
+      "Supports": "Arizona cardinals ",
+      "FanFor": "like 7 years?",
       "FanSeason": "3rd Season",
       "Fact": "Rhumba and Mora are the real Esquel Collies. One year they killed 16 birds by grabbing them out of the sky. Now we're gonna crush it like they crush little birdie bones!",
       "Other": ""
@@ -32,20 +32,28 @@
       "TeamName": "Packers FC",
       "RealName": "Brandon Meadow",
       "Supports": "Green Bay Packers",
-      "FanFor": "Approx 8 Years",
-      "FanSeason": "1st Season for a while. Have done drafts before. ",
-      "Fact": "Sorry Steve can’t think of anything to put here ",
+      "FanFor": "approx 8 Years",
+      "FanSeason": "1st season for a while",
+      "Fact": "Packers FC were originally a Peckham-based association football club, but after growing tired of low pay and nil-nil draws, they chose to move the team to the desirable fish-packing district of New England and take up a more interesting sport. (Fact added by the editor)",
       "Other": ""
     },
     {
       "TeamName": "The Brady Bunch",
       "RealName": "Bryn Joslin",
       "Supports": "The Bucs (not because of Brady)",
-      "FanFor": "2",
+      "FanFor": "2 years",
       "FanSeason": "1st season",
       "Fact": "After doing abysmally for a couple of decades, Hugh Laurie and Tony Robinson bought out the team to see if they could finally take them to the playoffs and ultimately the Super Bowl.",
       "Other": ""
     },
-    {"TeamName":"Naperville Bearcats", "RealName":"Mike Wallbank", "Supports":"Bears", "FanFor":"Went to my first game in 2014 when I moved to the States; probably only really got invested in the 2018 season", "FanSeason":"3rd season", "Fact":"The name was quickly formed when adding team to league at the last minute, but represents a few things! Naperville is the city I live in (~30 miles west of Chicago) and Bearcats is the name of the athletics teams at the University of Cincinnati, where I’m employed. It was a historic season for the Cincinnati Bearcats football team last season, the first non-power 5 conference team to make the playoffs, and I really got into college football for the first time and made it to a game, so I had to name my team after them!", "Other":""}
+    {
+      "TeamName": "Naperville Bearcats",
+      "RealName": "Mike Wallbank",
+      "Supports": "Bears",
+      "FanFor": "4 to 8 years",
+      "FanSeason": "3rd season",
+      "Fact": "Naperville is the city I live in (~30 miles west of Chicago) and Bearcats is the name of the athletics teams at the University of Cincinnati, where I’m employed. It was a historic season for the Cincinnati Bearcats football team last season, the first non-power 5 conference team to make the playoffs, and I really got into college football for the first time and made it to a game, so I had to name my team after them!",
+      "Other": ""
+    }
   ]
 }
