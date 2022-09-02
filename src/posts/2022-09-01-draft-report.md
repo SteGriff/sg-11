@@ -11,4 +11,7 @@ Visibly shaken by the discovery they had the first overall pick, Ste Griffiths, 
 
 But the suprises wouldn't stop there.
 
-In 
+Travis Kelce was a second round pick for The Red Rifles. "There's such a gulf between Kelce and the next-best Tight End", posited GM Tom Wiggins, "It makes sense".
+
+In a league with TE/WR in the flex position, it felt that Running Backs were drafted with an unexpected volume and eagerness. In fact, 16 of the first 24 picks were RBs.
+
