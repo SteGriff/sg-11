@@ -26,3 +26,5 @@ The run on QBs had some panicking in the middle of the draft. Still lacking a co
 Rarely is a manager every totally satisfied with their draft, and really the proof of the pudding is in the season. With Week 1 around the corner, who will come out with an early win to start off the season on the right foot? Only time will tell, and, [in the words of Andy Dalton, Ron Jones, Joe Judge, and probably every other head coach ever][hc]; "It's a long season".
 
 [hc]: https://duckduckgo.com/?q=NFL+%22it%27s+a+long+season%22&t=ffab&ia=web
+
+[Draft Recap](https://fantasy.nfl.com/league/10580413/draftresults#leagueDraftResults=leagueDraftResults%2C%2Fleague%2F10580413%2Fdraftresults%253FdraftResultsType%253Drecap%2Creplace)
