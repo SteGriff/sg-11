@@ -4,6 +4,7 @@
     {
       "TeamName": "Southport Skylarks",
       "RealName": "Ste Griffiths",
+      "Connection": "I know Andy since forever",
       "Supports": "Cardinals",
       "FanFor": "7 years",
       "FanSeason": "3rd season",
@@ -13,6 +14,7 @@
     {
       "TeamName": "Esquel Collies ",
       "RealName": "Helen Griffiths",
+      "Connection": "Andy is my friend ",
       "Supports": "Arizona cardinals ",
       "FanFor": "like 7 years?",
       "FanSeason": "3rd Season",
@@ -22,6 +24,7 @@
     {
       "TeamName": "Burrow row row your boat",
       "RealName": "Jonny Hubble",
+      "Connection": "Trebz and Kendrew",
       "Supports": "Packers",
       "FanFor": "8 years ",
       "FanSeason": "4th season",
@@ -31,6 +34,7 @@
     {
       "TeamName": "Packers FC",
       "RealName": "Brandon Meadow",
+      "Connection": "Andy Trebble invited me. Friends since primary school. ",
       "Supports": "Green Bay Packers",
       "FanFor": "approx 8 Years",
       "FanSeason": "1st season for a while",
@@ -40,6 +44,7 @@
     {
       "TeamName": "The Brady Bunch",
       "RealName": "Bryn Joslin",
+      "Connection": "Josh Kendrew is my brother in law and invited us to join",
       "Supports": "The Bucs (not because of Brady)",
       "FanFor": "2 years",
       "FanSeason": "1st season",
@@ -49,10 +54,21 @@
     {
       "TeamName": "Naperville Bearcats",
       "RealName": "Mike Wallbank",
+      "Connection": "Invited by Andy. Known him for quite a while due to common hometown!",
       "Supports": "Bears",
       "FanFor": "4 to 8 years",
       "FanSeason": "3rd season",
       "Fact": "Naperville is the city I live in (~30 miles west of Chicago) and Bearcats is the name of the athletics teams at the University of Cincinnati, where I’m employed. It was a historic season for the Cincinnati Bearcats football team last season, the first non-power 5 conference team to make the playoffs, and I really got into college football for the first time and made it to a game, so I had to name my team after them!",
+      "Other": ""
+    },
+    {
+      "TeamName": "Mayfield Bakery",
+      "RealName": "Josh Kendrew",
+      "Connection": "As with everyone, I know Trebs. ",
+      "Supports": "San Francisco 49ers",
+      "FanFor": "10 years, since Kap was my boy",
+      "FanSeason": "4th season",
+      "Fact": "They’ve been in the playoffs fewer times than the Detroit Lions",
       "Other": ""
     }
   ]
