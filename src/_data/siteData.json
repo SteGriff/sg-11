@@ -84,7 +84,7 @@
     {
       "TeamName": "The cheetahs",
       "RealName": "Naim El-harrati",
-      "Connection": "Through Ste and out morning coffee ☺️",
+      "Connection": "Through Ste and our morning coffee ☺️",
       "Supports": "The Dolphins",
       "FanFor": "10 years",
       "FanSeason": "2nd season",
@@ -119,6 +119,16 @@
       "FanFor": "5 years ",
       "FanSeason": "5th season ",
       "Fact": "Coming off the back of a super bowl winning performance in the last fantasy league, a likely last place finish is on the cards",
+      "Other": ""
+    },
+    {
+      "TeamName": "Beginners Luck",
+      "RealName": "Joel Naisbitt",
+      "Connection": "I'm Andy friend",
+      "Supports": "Bengals, probably",
+      "FanFor": "? years",
+      "FanSeason": "?th season",
+      "Fact": "Due to a licensing arrangement gone wrong, Beginners Luck have been required to play S-Club 7s \"Reach\" everytime they score since the year 2000",
       "Other": ""
     }
   ]
