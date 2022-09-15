@@ -8,7 +8,7 @@ Football. Need I say more?
 
 ## Latest post:
 
-{% for post in collections.post limit: 1 %}
+{% assign post = collections.post | last %}
 
 <div class="neu ph3 pv2 mv3">
 <h3>
@@ -21,8 +21,6 @@ Football. Need I say more?
   {{ post.templateContent | strip_html | truncate:130 }}
 </p>
 </div>
-
-{% endfor %}
 
 ## See also:
 

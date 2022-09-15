@@ -6,7 +6,7 @@ title: Posts
 
 Here come the match reports
 
-{%- for post in collections.post | sort: "date" -%}
+{%- for post in collections.post reversed -%}
   <div class="neu ph3 pv2 mv3">
   <h2>
     <a class="no-underline" href="{{post.url}}">{{post.data.title}}</a>
