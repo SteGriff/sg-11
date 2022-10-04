@@ -5,6 +5,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
 
   // eleventyConfig.addFilter( "myFilter", function() {});
+  eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
+    // Read more below
+    
+  });
   
   eleventyConfig.setBrowserSyncConfig({
     // https://www.browsersync.io/docs/options/#option-ghostMode
