@@ -10,6 +10,20 @@ module.exports = function(eleventyConfig) {
   
   const teamCodes = siteData.profiles.map(t => t.Code);
   console.log(teamCodes);
+  
+  teamCodes.forEach(tc => {
+    eleventyConfig.addShortcode(tc, function() { 
+      return `<span class='${tc}'>${tc}</span>`;
+    });
+  })
+  
+  eleventyConfig.addTransform("team-codes", function(content) {
+    console.log( this.inputPath );
+    console.log( this.outputPath );
+    // note that this.outputPath is `false` for serverless templates
+
+    return content; // no change done.
+  });
     
   // eleventyConfig.on('eleventy.before', async (config) => {
   //   fs.readdir("src/posts", (err,files) => {
