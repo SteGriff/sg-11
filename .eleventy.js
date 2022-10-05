@@ -18,11 +18,15 @@ module.exports = function(eleventyConfig) {
   })
   
   eleventyConfig.addTransform("team-codes", function(content) {
-    console.log( this.inputPath );
-    console.log( this.outputPath );
-    // note that this.outputPath is `false` for serverless templates
+    // Replace all teamcodes in bold markdown, eg **SKY**
+    // with the liquid shortcode, eg {% SKY %}
+    teamCodes.forEach(tc => {
+      const lookFor = `**${tc}**`;
+      const replaceWith = `{% ${tc} %}`;
+      content = content.replaceAll(lookFor, replaceWith);
+    })
 
-    return content; // no change done.
+    return content;
   });
     
   // eleventyConfig.on('eleventy.before', async (config) => {
