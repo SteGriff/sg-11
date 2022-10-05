@@ -15,7 +15,7 @@
     "start": "eleventy --serve"
   },
   "engines": {
-    "node": "12"
+    "node": "16"
   },
   "glitch": {
     "projectType": "generated_static"

@@ -1,6 +1,6 @@
 // docs: https://www.11ty.io/docs/config/
 // const fs = require("fs");
-// const siteData = require("_data/siteData.json");
+const siteData = require("./src/_data/siteData.js");
 
 module.exports = function(eleventyConfig) {
   
@@ -8,8 +8,9 @@ module.exports = function(eleventyConfig) {
 
   // eleventyConfig.addFilter( "myFilter", function() {});
   
-  
-  
+  const teamCodes = siteData.profiles.map(t => t.Code);
+  console.log(teamCodes);
+    
   // eleventyConfig.on('eleventy.before', async (config) => {
   //   fs.readdir("src/posts", (err,files) => {
   //     console.log("files", files);
