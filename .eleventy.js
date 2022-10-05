@@ -23,6 +23,7 @@ module.exports = function(eleventyConfig) {
     teamCodes.forEach(tc => {
       const lookFor = `**${tc}**`;
       const replaceWith = `{% ${tc} %}`;
+      console.log("look for", lookFor, replaceWith);
       content = content.replaceAll(lookFor, replaceWith);
     })
 
