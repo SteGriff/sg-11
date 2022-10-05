@@ -31,8 +31,20 @@ h1,h2,h3, .all-pro {
   box-shadow: 5px 5px 11px #c1c1c1, -5px -5px 11px #ffffff;
 }
 
-.nap{}
-
+.sky{color: mediumblue; font-weight: bold; }
+.esq{color: lightblue; font-weight: bold; }
+.brr{color: mediumseagreen; font-weight: bold; }
+.pfc{color: #aa0088; font-weight: bold; }
+.tbb{color: #aa0088; font-weight: bold; }
+.nap{color: #aa0088; font-weight: bold; }
+.mfb{color: #aa0088; font-weight: bold; }
+.tbc{color: #aa0088; font-weight: bold; }
+.che{color: cyan; font-weight: bold; }
+.crt{color: #aa0088; font-weight: bold; }
+.ccl{color: #aa0088; font-weight: bold; }
+.lcd{color: navy; font-weight: bold; }
+.bfl{color: #aa0088; font-weight: bold; }
+.red{color: red; font-weight: bold; }
 
 
 /*! TACHYONS v4.12.0 | http://tachyons.io */
