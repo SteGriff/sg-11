@@ -36,7 +36,11 @@ h1,h2,h3, .all-pro {
   height: 60px;
   display: block;
   content : '';
-  float: right;
+  position: absolute;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 5px 5px 11px #c1c1c1, -5px -5px 11px #ffffff;
+  margin-top: -6rem;
 }
 
 .SKY{color: mediumblue; font-weight: bold; }

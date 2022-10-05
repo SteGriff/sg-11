@@ -18,9 +18,7 @@ module.exports = function(eleventyConfig) {
   })
   
   eleventyConfig.addTransform("team-codes", function(content) {
-    // Replace all teamcodes in bold markdown, eg **SKY**
-    // with the liquid shortcode, eg {% SKY %}
-    console.log("this", this, content);
+    // Replace all teamcodes, eg SKY with a HTML span
     teamCodes.forEach(tc => {
       const replaceWith = `<span class='js-tc ${tc}'>${tc}</span>`;
       //console.log("look for", lookFor, replaceWith);
