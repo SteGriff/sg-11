@@ -20,11 +20,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addTransform("team-codes", function(content) {
     // Replace all teamcodes in bold markdown, eg **SKY**
     // with the liquid shortcode, eg {% SKY %}
+    console.log("this", this, content);
     teamCodes.forEach(tc => {
-      const lookFor = `**${tc}**`;
-      const replaceWith = `{% ${tc} %}`;
-      console.log("look for", lookFor, replaceWith);
-      content = content.replaceAll(lookFor, replaceWith);
+      const replaceWith = `<span class='${tc}'>${tc}</span>`;
+      //console.log("look for", lookFor, replaceWith);
+      content = content.replaceAll(tc, replaceWith);
     })
 
     return content;
