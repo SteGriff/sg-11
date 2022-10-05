@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
     // with the liquid shortcode, eg {% SKY %}
     console.log("this", this, content);
     teamCodes.forEach(tc => {
-      const replaceWith = `<span class='${tc}'>${tc}</span>`;
+      const replaceWith = `<span class='js-tc ${tc}'>${tc}</span>`;
       //console.log("look for", lookFor, replaceWith);
       content = content.replaceAll(tc, replaceWith);
     })

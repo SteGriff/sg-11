@@ -31,6 +31,14 @@ h1,h2,h3, .all-pro {
   box-shadow: 5px 5px 11px #c1c1c1, -5px -5px 11px #ffffff;
 }
 
+.js-tc:hover::after {
+  width: 200px;
+  height: 60px;
+  display: block;
+  content : '';
+  float: right;
+}
+
 .SKY{color: mediumblue; font-weight: bold; }
 .ESQ{color: lightblue; font-weight: bold; }
 .BRR{color: mediumseagreen; font-weight: bold; }
