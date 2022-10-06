@@ -142,7 +142,7 @@ module.exports = {
       "FanSeason": "?th season",
       "Fact": "Due to a licensing arrangement gone wrong, Beginners Luck have been required to play S-Club 7s \"Reach\" everytime they score since the year 2000",
       "Other": "",
-      "Code": "BFL"
+      "Code": "BGL"
     },
     {
       "TeamName": "The Red Rifles",
