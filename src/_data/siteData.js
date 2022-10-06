@@ -163,7 +163,11 @@ module.exports = {
   name: "The Pigskin Chronicle",
   profiles: teamProfiles,
   infoBoxes: teamProfiles.map((p) => {
-    return { team: p.TeamName, owner: p.RealName, code: p.Code.toLowerCase() };
+    return { 
+      team: p.TeamName,
+      owner: p.RealName, 
+      code: p.Code.toLowerCase()
+    };
   }),
 };
 
