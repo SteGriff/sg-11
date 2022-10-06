@@ -17,6 +17,8 @@ Data for the Team Profiles is in `_data/siteData.json`. The profiles are populat
 
 Team colours are set in `public/style.css`
 
-Short codes are controlled by the `Code` attribute of each team in the `siteData.js` file, and an 11ty Transform which is set up in `.eleventy.js`. It finds all instances in page output of a team's three letter code and replaces it with a special `<span>` element for that team. That makes the letters go their colour, and makes the infobox appear on hover.
+Team three letter codes are controlled by the `Code` attribute of each team in the `siteData.js` file. An 11ty Transform in `.eleventy.js` finds all instances in page output of a team's three letter code and replaces it with a special `<span>` element for that team. That makes the letters go their colour, and makes the infobox appear on hover.
 
-The infoboxes are CSS only. The empty infobox templates are created in the base CSS, and the team-specific content is powered by a piece of inline JS which is added to every page in `default.njk`
+The infoboxes are CSS only. The empty infobox templates are created in the base CSS, and the team-specific content is powered by a piece of inline JS which is added to every page in `default.njk`.
+
+Because the team code is replaced *everywhere* it causes a bug with the team **TBC**, so there is a workaround in the JS to fix their team name in the infobox data.
