@@ -28,15 +28,26 @@
     <script>
       {% infoBoxData %}
       console.log(infoBoxes[0]);
-       let cssRules = "";
-       const headEl = document.querySelector('head');
-       console.log(headEl);
-       infoBoxes.forEach(ib => {
-         const ibClass = ib.code.toUpperCase();
-         const rule = `.${ibClass}::after{ content: '${ibClass}' } `
-         cssRules += rule;
-       })
-       console.log(cssRules);
+
+      let cssRules = "";
+
+      infoBoxes.forEach(ib => {
+      const ibClass = `js-tc.${ib.code.toUpperCase()}:hover::after`;
+      const boxContent = `${ib.team} - ${ib.owner}`;
+      const rule = 
+            `.${ibClass}{ content: '${boxContent}' } `
+        cssRules += rule;
+      })
+      console.log(cssRules);
+
+      const headEl = document.querySelector('head');
+      console.log(headEl);
+
+      const styleEl = document.createElement('style');
+      const styleText = document.createTextNode(cssRules);
+      styleEl.appendChild(styleText);
+      headEl.appendChild(styleEl);
+
     </script>
   </body>
 </html>
