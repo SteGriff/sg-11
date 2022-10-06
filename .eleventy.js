@@ -7,12 +7,13 @@ module.exports = function (eleventyConfig) {
 
   // eleventyConfig.addFilter( "myFilter", function() {});
 
-  siteData.infoBoxes = siteData.profiles.map((p) => {
-    return { team: p.TeamName, owner: p.RealName };
+  eleventyConfig.addShortcode("infoBoxData", (data) => {
+    const json = JSON.stringify(siteData.infoBoxes);
+    return `const infoBoxes = ${json}`;
   });
 
   const teamCodes = siteData.profiles.map((t) => t.Code);
-  console.log(teamCodes);
+  //console.log(teamCodes);
 
   teamCodes.forEach((tc) => {
     eleventyConfig.addShortcode(tc, function () {
@@ -26,7 +27,6 @@ module.exports = function (eleventyConfig) {
       const replaceWith = `<span class='js-tc ${tc}'>${tc}</span>`;
       content = content.replaceAll(tc, replaceWith);
     });
-
     return content;
   });
 

@@ -26,7 +26,8 @@
       
     </main>
     <script>
-      console.log("{{ siteData.infoBoxes[0].owner }}");
+      {% infoBoxData %}
+      console.log(infoBoxes[0])
     </script>
   </body>
 </html>
