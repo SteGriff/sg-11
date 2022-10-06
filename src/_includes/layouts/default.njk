@@ -28,17 +28,15 @@
     <script>
       {% infoBoxData %}
       console.log(infoBoxes[0]);
+       let cssRules = "";
+       const headEl = document.querySelector('head');
+       console.log(headEl);
        infoBoxes.forEach(ib => {
          const ibClass = ib.code.toUpperCase();
-         const query = `.${ibClass}`;
-         const elements = document.getElementsByClassName(ibClass);
-         const elements2 = document.querySelector(query);
-console.log("el", elements);
-         console.log("el2", elements2);
-         if (!elements2) return;
-         const styles = window.getComputedStyle(elements2, ":after").content;
-         console.log("st", styles)
+         const rule = `.${ibClass}::after{ content: '${ibClass}' } `
+         cssRules += rule;
        })
+       console.log(cssRules);
     </script>
   </body>
 </html>
