@@ -35,7 +35,9 @@
          const elements2 = document.querySelector(query);
 console.log("el", elements);
          console.log("el2", elements2);
-         window.getComputedStyle(elements[0]);
+         if (!elements2) return;
+         const styles = window.getComputedStyle(elements2, ":after").content;
+         console.log("st", styles)
        })
     </script>
   </body>
