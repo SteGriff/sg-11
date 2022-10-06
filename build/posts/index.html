@@ -71,15 +71,12 @@
       console.log(infoBoxes[0]);
        infoBoxes.forEach(ib => {
          const ibClass = ib.code.toUpperCase();
-         const query = `.${ibClass}::after`;
+         const query = `.${ibClass}`;
          const elements = document.getElementsByClassName(ibClass);
          const elements2 = document.querySelector(query);
 console.log("el", elements);
-        const styles = window.getComputedStyle(
-            elements[0], ':after'
-          );//.getPropertyValue('content')
-                  
-         console.log("el2", styles);
+         console.log("el2", elements2);
+         window.getComputedStyle(elements[0]);
        })
     </script>
   </body>
