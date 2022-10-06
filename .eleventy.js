@@ -2,47 +2,49 @@
 // const fs = require("fs");
 const siteData = require("./src/_data/siteData.js");
 
-module.exports = function(eleventyConfig) {
-  
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
 
   // eleventyConfig.addFilter( "myFilter", function() {});
-  
-  const teamCodes = siteData.profiles.map(t => t.Code);
+
+  siteData.infoBoxes = siteData.profiles.map((p) => {
+    return { team: p.TeamName, owner: p.RealName };
+  });
+
+  const teamCodes = siteData.profiles.map((t) => t.Code);
   console.log(teamCodes);
-  
-  teamCodes.forEach(tc => {
-    eleventyConfig.addShortcode(tc, function() { 
+
+  teamCodes.forEach((tc) => {
+    eleventyConfig.addShortcode(tc, function () {
       return `<span class='${tc}'>${tc}</span>`;
     });
-  })
-  
-  eleventyConfig.addTransform("team-codes", function(content) {
+  });
+
+  eleventyConfig.addTransform("team-codes", function (content) {
     // Replace all teamcodes, eg SKY with a HTML span
-    teamCodes.forEach(tc => {
+    teamCodes.forEach((tc) => {
       const replaceWith = `<span class='js-tc ${tc}'>${tc}</span>`;
-      //console.log("look for", lookFor, replaceWith);
       content = content.replaceAll(tc, replaceWith);
-    })
+    });
 
     return content;
   });
-    
+
   // eleventyConfig.on('eleventy.before', async (config) => {
   //   fs.readdir("src/posts", (err,files) => {
   //     console.log("files", files);
   //   })
   // });
-  
+
   eleventyConfig.setBrowserSyncConfig({
     // https://www.browsersync.io/docs/options/#option-ghostMode
-    ghostMode: false
+    ghostMode: false,
   });
 
   return {
     dir: {
       input: "src",
-      output: "build"
-    }
+      output: "build",
+    },
   };
 };
