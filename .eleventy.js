@@ -15,6 +15,8 @@ module.exports = function (eleventyConfig) {
   const teamCodes = siteData.profiles.map((t) => t.Code);
   //console.log(teamCodes);
 
+  // Give each teamcode it's own 11ty universal shortcode
+  // which can be used like {% SKY %}
   teamCodes.forEach((tc) => {
     eleventyConfig.addShortcode(tc, function () {
       return `<span class='${tc}'>${tc}</span>`;

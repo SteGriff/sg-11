@@ -29,6 +29,10 @@
       {% infoBoxData %}
       let cssRules = "";
       infoBoxes.forEach(ib => {
+        // JS fights the liquid filters - don't ask
+        if (ib.team.indexOf("span")!==-1)
+          ib.team = "T.BC".replace(".", "");
+        
         const ibClass = `js-tc.${ib.code.toUpperCase()}:hover::after`;
         const boxContent = `${ib.team} - ${ib.owner}`;
         const rule = `.${ibClass}{ content: '${boxContent}' }`;
