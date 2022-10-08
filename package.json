@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-on-glitch",
-  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com",
+  "name": "sg-11",
+  "description": "SteGriff's 11ty starter",
   "tags": [
     "eleventy",
     "11ty",
