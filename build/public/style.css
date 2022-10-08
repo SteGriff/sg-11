@@ -1,29 +1,4 @@
-@font-face {
-font-family: AllProSans;
-src: url("https://cdn.glitch.global/7c6c19f5-1142-4641-968e-6d641be619f6/heavy.woff2") format("woff2");
-font-style: normal;
-font-weight: 900;
-}
-
-@font-face {
-font-family: AllProSans;
-src: url("https://cdn.glitch.global/7c6c19f5-1142-4641-968e-6d641be619f6/bold.woff2") format("woff2");
-font-style: normal;
-font-weight: 600;
-}
-
-@font-face {
-font-family: AllProSans;
-src: url("https://cdn.glitch.global/7c6c19f5-1142-4641-968e-6d641be619f6/regular.woff2") format("woff2");
-font-style: normal;
-font-weight: 400;
-}
-
 html { font-family: Helvetica, Arial, sans-serif; }
-
-h1,h2,h3, .all-pro {
-    font-family: AllProSans, sans-serif;
-}
 
 .neu {
   border-radius: 1rem;
@@ -37,7 +12,6 @@ h1,h2,h3, .all-pro {
 
 .js-tc:hover::after {
   width: 200px;
-  height: 60px;
   display: block;
   content : '';
   position: absolute;
