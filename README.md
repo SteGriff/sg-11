@@ -1,7 +1,6 @@
-
 # sg-11
 
-This is SteGriff's 11ty template.
+This is SteGriff's 11ty starter template.
 
 This website is powered by the static site generator, [11ty](https://www.11ty.dev).
 
@@ -19,3 +18,4 @@ Global site data is in `_data/siteData.json`.
 
 ## Extra features
 
+Tooltips are powered by data in `siteData.js` and the Transform configured in `.eleventy.js`
