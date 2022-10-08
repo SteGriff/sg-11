@@ -6,14 +6,15 @@ html { font-family: Helvetica, Arial, sans-serif; }
   box-shadow: 5px 5px 11px #c1c1c1, -5px -5px 11px #ffffff;
 }
 
-.js-tc {
+.js-tt {
   position:relative;
+  font-style: italic;
 }
 
-.js-tc:hover::after {
+.js-tt:hover::after {
   width: 200px;
   display: block;
-  content : '';
+  content : attr(data-tt);
   position: absolute;
   border-radius: 1rem;
   background: white;

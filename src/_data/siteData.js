@@ -1,6 +1,5 @@
 module.exports = {
   name: "Website",
-  layout: "layouts/default.njk",
   terms: [
     {
       term: "tooltip",

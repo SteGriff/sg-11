@@ -3,7 +3,7 @@ pageTitle: Home
 title: Henlo
 ---
 
-Football. Need I say more?
+This is your website. You can write things!
 
 ## Latest post:
 
@@ -21,7 +21,8 @@ Football. Need I say more?
 </p>
 </div>
 
-## See also:
+## Links
 
- + [Team Profiles](/teams/)
- + [About TPC](/about/)
+ + [SteGriff](https://stegriff.co.uk)
+ + [About](/about/)
+ 

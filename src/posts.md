@@ -1,10 +1,8 @@
 ---
-layout: layouts/default.njk
-pageTitle: 🏈🐖 Posts
 title: Posts
 ---
 
-Here come the match reports
+Here come the posts
 
 {%- for post in collections.post reversed -%}
   <div class="neu ph3 pv2 mv3">
